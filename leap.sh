@@ -1,4 +1,5 @@
 #Shell script to test whether the given year is a leap year or not
+
 if [ $# -gt 1 ]
 then
    echo " syntax is <$0> [<year>]"
@@ -20,3 +21,15 @@ else
   echo " $yr is not leap"
 fi 
  
+
+
+<<comment
+
+ksb@ksb-OptiPlex-3060:~/fathima/nw/script$ sh leap.sh
+ 2022 is not leap
+ksb@ksb-OptiPlex-3060:~/fathima/nw/script$ sh leap.sh 2021
+ 2021 is not leap
+ksb@ksb-OptiPlex-3060:~/fathima/nw/script$ sh leap.sh 2020
+ 2020 is leap year 
+
+comment
