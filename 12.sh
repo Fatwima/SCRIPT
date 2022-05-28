@@ -24,7 +24,7 @@ i=`expr $i - 1`
 done
 exit 0
 
-/*
+<<comm
 ksb@ksb-OptiPlex-3060:~/fathima/nw/ss$ cat abc
 hello
 hei
@@ -52,4 +52,4 @@ hai
 hi
 oy
 
-*/
+comm

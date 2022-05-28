@@ -37,7 +37,7 @@ done
 exec < $ter	 
 rm lsl
 
-/*
+<<comm
 ksb@ksb-OptiPlex-3060:~/fathima/nw/script$ sh 10windows.sh
 28/0522  12:23:24 PM IST	     	  506	   10windows.sh
 28/0522  12:26:16 PM IST	     	  315	   11print.sh
@@ -60,4 +60,4 @@ ksb@ksb-OptiPlex-3060:~/fathima/nw/script$ sh 10windows.sh
 26/0522  11:30:00 AM IST	     	  1101	   rename.sh
 26/0522  01:03:36 PM IST	     	  484	   timewish.sh
 23/0522  03:20:44 PM IST	     	  127	   your.sh
-*/
+comm 
