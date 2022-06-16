@@ -42,5 +42,5 @@ else
 
 	res=`expr $a / $t`
 
-	echo "ncr of $p & $r = $res"
+	echo " $pC$r = $res"
 fi
